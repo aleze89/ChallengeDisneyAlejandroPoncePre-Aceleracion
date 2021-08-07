@@ -13,7 +13,10 @@ namespace ChallengeDisneyAPI.Entities
         public int Age { get; set; }
         public float Weight { get; set; }
         public string History { get; set; }
-        //TODO peliculaseries
+
+        //TODO : movie
+        public ICollection<Movie> Movies { get; set; }
+
 
     }
 }

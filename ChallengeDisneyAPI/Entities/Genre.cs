@@ -11,5 +11,8 @@ namespace ChallengeDisneyAPI.Entities
         public string Name { get; set; }
         public string Image { get; set; }
 
+        //todo : movie
+        public ICollection<Movie> Movies { get; set; }
+
     }
 }

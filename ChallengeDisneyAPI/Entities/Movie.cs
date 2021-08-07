@@ -13,9 +13,12 @@ namespace ChallengeDisneyAPI.Entities
         public DateTime CreationDate { get; set; }
         public int Rating { get; set; }
        
-        //todo personajes
+        //todo : genre
+        public Genre Genre { get; set; }
 
-        //todo generos
+        //todo : characters
+        public Characters Characters { get; set; }
+
 
     }
 }
