@@ -17,7 +17,7 @@ namespace ChallengeDisneyAPI.Entities
         public Genre Genre { get; set; }
 
         //todo : characters
-        public Characters Characters { get; set; }
+        public ICollection<Characters> Characters { get; set; }
 
 
     }
