@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ChallengeDisneyAPI.Migrations
 {
     [DbContext(typeof(ChallengeContext))]
-    [Migration("20210809174404_muchosamuchos")]
-    partial class muchosamuchos
+    [Migration("20210810220018_solucionproblema")]
+    partial class solucionproblema
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
